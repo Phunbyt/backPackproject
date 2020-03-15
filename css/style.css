@@ -1,0 +1,833 @@
+body {
+    margin: 0;
+    box-sizing: border-box;
+}
+
+* {
+    font-family: mada;
+}
+
+nav .navbar-brand {
+    font-family: lemon;
+    font-size: 30px;
+    font-weight: 700;
+    color: #5db0fe;
+    float: left;
+}
+
+nav {
+    display: flex;
+    justify-content: baseline;
+}
+
+nav .navbar-brand span {
+    font-size: 20px;
+}
+
+nav .collapse ul {
+    position: relative;
+    top: 10px;
+    left: 9em;
+    width: 50em;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav .collapse ul li hr {
+    margin-top: 0px;
+    border-bottom: 2px solid #505050;
+    width: 40%;
+    display: flex;
+    justify-content: flex-start;
+}
+
+nav .collapse ul li a {
+    color: #505050;
+    font-weight: 500;
+    padding: 0px 10px;
+}
+
+nav .nav-link:hover {
+    color: chocolate;
+}
+
+nav .disabler {
+    border: 2px solid #5db0fe;
+    border-radius: 10px;
+}
+
+
+/* section 1 */
+
+.section-1 .container {
+    background-color: #baddfd;
+    margin-top: 30px;
+    border-radius: 20px;
+    height: 400px;
+    padding: 50px 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.section-1 .text-field {
+    font-family: mada;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.section-1 .text-field h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.section-1 .text-field a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #1a87ec;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.section-1 .text-field a:hover {
+    background-color: #02498b;
+}
+
+.section-1 .section-img {
+    margin-top: -37px;
+    height: 400px;
+    display: flex;
+}
+
+.section-1 .section-img img {
+    margin-top: -27px;
+    height: auto;
+    width: 100%;
+}
+
+
+/* section 2 */
+
+.section-2 .sidebar {
+    transform: rotate(-90deg);
+    position: relative;
+    left: -150px;
+    margin-top: 180px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    border: 3px solid #1a87ec;
+    border-radius: 20px;
+    padding: 30px 185px;
+}
+
+.section-2 .sidebar h1 {
+    align-self: center;
+    text-transform: capitalize;
+    color: #1a87ec;
+}
+
+.section-2 .cards .card-plate {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.section-2 .cards img {
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 25px 0px;
+}
+
+.section-2 .cards .card-plate .template {
+    margin-left: 12px;
+    text-align: justify;
+    height: 150px;
+}
+
+.section-2 .cards .card-plate .template h1 {
+    font-size: 20px;
+    font-weight: 750;
+    text-transform: capitalize;
+}
+
+.section-2 .cards .card-plate .template p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.section-2 .cards .card-1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #e0719e;
+}
+
+.section-2 .cards .card-3 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #7fd6c2;
+}
+
+.section-2 .cards .card-2 {
+    background-color: #f6e049;
+}
+
+.section-2 .cards .card-4 {
+    background-color: #aac6fc;
+}
+
+.section-2 .sec-link {
+    float: right;
+    margin: 40px 200px;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+/* section 3 */
+
+.section-3 {
+    margin-top: 11em;
+}
+
+.section-3 .sec-head {
+    display: flex;
+    justify-content: center;
+}
+
+.section-3 .sec-head h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #1a87ec;
+    text-transform: capitalize;
+    font-family: acme;
+}
+
+.section-3 .whys {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+}
+
+.section-3 .whys .why-img {
+    height: auto;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.section-3 .whys .why-img img {
+    height: 50px;
+    max-width: 100%;
+}
+
+.section-3 .whys .why-head {
+    margin: 15px 0px;
+}
+
+.section-3 .whys .why-head h2 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: acme;
+    text-transform: capitalize;
+}
+
+.section-3 .whys .why-text {
+    font-weight: 700;
+    text-align: justify;
+}
+
+
+/* section 4 */
+
+.section-4 .container {
+    font-family: poppins;
+    margin-top: 200px;
+    background-color: #aac6fc;
+    border-radius: 0px 0px 50px 50px;
+    height: 400px;
+}
+
+.section-4 .text-area {
+    font-family: worksans;
+    margin: 50px 30px;
+    font-weight: 800;
+}
+
+.section-4 .text-area h1 {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 39px;
+    margin-bottom: 20px;
+}
+
+.section-4 .text-area p {
+    font-weight: 600;
+    line-height: 30px;
+}
+
+.section-4 .downtext {
+    margin-left: 30px;
+}
+
+.section-4 .downtext h4 {
+    font-size: 22px;
+    font-weight: 800;
+}
+
+.section-4 .download-icon {
+    margin-left: 30px;
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.section-4 .download-icon img {
+    height: 50px;
+    max-width: 100%;
+}
+
+.section-4 .phone-app {
+    display: flex;
+    justify-content: flex-start;
+    margin-left: -10em;
+}
+
+.section-4 .phone-app .image-1 {
+    position: relative;
+    top: -11em;
+}
+
+.section-4 .phone-app .image-2 {
+    position: relative;
+    left: -25em;
+}
+
+
+/* footer */
+
+footer .container-fluid {
+    margin-top: 80px;
+    padding-top: 50px;
+    background-color: #052c4d;
+}
+
+footer .footer-poster {
+    margin-right: -20em;
+    width: 44em;
+}
+
+footer nav .navbar-brand {
+    font-family: lemon;
+    font-size: 30px;
+    font-weight: 700;
+    color: #5db0fe;
+    margin-left: -20px;
+    margin-bottom: 10px;
+}
+
+footer .div-form h5 {
+    color: #fff;
+    font-weight: 500;
+    text-align: left;
+    margin-bottom: 40px;
+}
+
+footer .div-form form {
+    margin-bottom: 40px;
+}
+
+footer .div-form form input {
+    width: 15em;
+    height: 3em;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+}
+
+footer .div-form form input::placeholder {
+    font-weight: 500;
+    text-align: center;
+    color: #052c4d;
+}
+
+footer .div-form form button {
+    height: 3em;
+    width: 5em;
+    font-weight: 500;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.footer img {
+    height: 50px;
+    max-width: 100%;
+}
+
+.footer img:nth-child(1) {
+    margin-bottom: 15px;
+    width: 168px;
+}
+
+footer .categories {
+    width: 14em;
+    text-align: left;
+    color: #fff;
+}
+
+footer .categories h1 {
+    font-size: 20px;
+    text-transform: capitalize;
+}
+
+footer .categories ul {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+footer .categories ul li {
+    margin-bottom: 5px;
+    font-weight: 300;
+}
+
+footer .categories ul li a {
+    text-decoration: none;
+    color: #fff;
+    text-transform: capitalize;
+}
+
+footer .categories ul li a:hover {
+    color: #c2c1c1;
+    font-size: 15px;
+}
+
+footer .rule hr {
+    border: 1px solid #fff;
+}
+
+footer .footy {
+    display: flex;
+    justify-content: space-between;
+}
+
+footer .copyright {
+    color: #fff;
+}
+
+footer .social-icons ul {
+    float: right;
+    list-style: none;
+}
+
+footer .social-icons ul li {
+    float: left;
+    padding: 0px 10px;
+}
+
+footer .social-icons ul li a {
+    color: #f6e049;
+}
+
+footer .social-icons ul li a:hover {
+    color: #a1922c;
+}
+
+
+/* mobile view */
+
+
+/* nav section */
+
+nav .brandbar {
+    font-family: lemon;
+    font-size: 40px;
+    font-weight: 700;
+    color: #5db0fe;
+    margin-top: -14px;
+}
+
+
+/* section 1 mobile */
+
+.msection-1 .container {
+    background-color: #baddfd;
+    width: 358px;
+    margin: 30px .5em;
+    border-radius: 20px;
+    padding: 50px;
+    height: 600px;
+}
+
+.msection-1 .text-field {
+    font-family: mada;
+    font-weight: 600;
+    line-height: 30px;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.msection-1 .text-field h1 {
+    text-transform: capitalize;
+    font-weight: 700;
+    margin-bottom: 20px;
+}
+
+.msection-1 .text-field a {
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #fff;
+    background-color: #1a87ec;
+    padding: 10px 20px;
+    border-radius: 10px;
+}
+
+.msection-1 .text-field a:hover {
+    background-color: #02498b;
+}
+
+.msection-1 .section-img img {
+    margin-top: -27px;
+    height: auto;
+    width: 100%;
+}
+
+
+/* section 2 mobile */
+
+.msection-2 .msidebar {
+    margin-top: 40px;
+    border: 3px solid #1a87ec;
+    border-radius: 20px;
+    padding: 30px 50px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.msection-2 .msidebar h1 {
+    text-align: center;
+    text-transform: capitalize;
+    color: #1a87ec;
+}
+
+.msection-2 .cards .card-plate {
+    display: flex;
+    justify-content: flex-start;
+    align-content: center;
+    padding: 15px;
+    border-radius: 20px;
+}
+
+.msection-2 .cards img {
+    height: 150px;
+    width: 150px;
+    align-self: center;
+    border: 3px solid #fff;
+    border-radius: 20px;
+    padding: 25px 0px;
+}
+
+.msection-2 .cards .card-plate .template {
+    margin-left: 12px;
+    text-align: justify;
+    height: 200px;
+}
+
+.msection-2 .cards .card-plate .template h1 {
+    font-size: 20px;
+    font-weight: 750;
+    text-transform: capitalize;
+}
+
+.msection-2 .cards .card-plate .template p {
+    font-size: 15px;
+    font-weight: 600;
+    line-height: 20px;
+}
+
+.msection-2 .cards .card-1 {
+    margin-top: 50px;
+    margin-bottom: 20px;
+    background-color: #e0719e;
+}
+
+.msection-2 .cards .card-3 {
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #7fd6c2;
+}
+
+.msection-2 .cards .card-2 {
+    background-color: #f6e049;
+}
+
+.msection-2 .cards .card-4 {
+    background-color: #aac6fc;
+}
+
+.msection-2 .sec-link {
+    margin: 10px 0px;
+    display: flex;
+    justify-content: center;
+    text-transform: capitalize;
+    font-weight: 800;
+    font-size: 20px;
+}
+
+
+/* section 3 mobile */
+
+.msection-3 {
+    margin-top: 5em;
+}
+
+.msection-3 .sec-head {
+    display: flex;
+    justify-content: center;
+}
+
+.msection-3 .sec-head h1 {
+    font-weight: 700;
+    font-size: 50px;
+    color: #1a87ec;
+    text-transform: capitalize;
+    font-family: acme;
+}
+
+.msection-3 .whys {
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    margin: 10px 20px;
+}
+
+.msection-3 .whys .why-img {
+    height: auto;
+    width: 100%;
+    margin-right: 10px;
+}
+
+.msection-3 .whys .why-img img {
+    height: 50px;
+    max-width: 100%;
+}
+
+.msection-3 .whys .why-head {
+    margin: 0px;
+}
+
+.msection-3 .whys .why-head h2 {
+    font-size: 20px;
+    font-weight: 800;
+    font-family: acme;
+    text-transform: capitalize;
+}
+
+.msection-3 .whys .why-text {
+    font-weight: 700;
+    text-align: justify;
+}
+
+
+/* section 4 mobile */
+
+.msection-4 .container {
+    font-family: poppins;
+    margin-top: 80px;
+    background-color: #aac6fc;
+    border-radius: 0px 0px 50px 50px;
+    height: 300px;
+    overflow-y: hidden;
+}
+
+.msection-4 .container .lefty {
+    float: left;
+}
+
+.msection-4 .text-area {
+    font-family: worksans;
+    margin: 50px 5px;
+    font-weight: 800;
+}
+
+.msection-4 .text-area h1 {
+    text-transform: capitalize;
+    font-weight: 900;
+    font-size: 17px;
+    margin-bottom: 20px;
+}
+
+.msection-4 .text-area p {
+    font-size: 12px;
+    font-weight: 800;
+    line-height: 20px;
+}
+
+.msection-4 .downtext {
+    margin-top: -35px;
+}
+
+.msection-4 .downtext h4 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 800;
+}
+
+.msection-4 .download-icon {
+    display: flex;
+    height: auto;
+    width: 100%;
+}
+
+.msection-4 .download-icon img {
+    height: 50px;
+    padding: 0px 10px;
+    max-width: 75%;
+}
+
+.frame .phone-app {
+    height: 200px;
+    width: 250px;
+    padding: 0px;
+    position: relative;
+    top: -378px;
+    left: 135px;
+    overflow: hidden;
+}
+
+.frame .phone-app .image-1 img {
+    height: auto;
+    max-width: 90%;
+    z-index: 1;
+    overflow: hidden;
+}
+
+
+/* mobile footer */
+
+.mfooter .container-fluid {
+    margin-top: -80px;
+    padding-top: 50px;
+    background-color: #052c4d;
+    height: 800px;
+    overflow: hidden;
+}
+
+.mfooter .footer-poster {
+    width: 20em;
+    display: flex;
+    justify-content: center;
+}
+
+.mfooter nav .navbar-brand {
+    font-family: lemon;
+    font-size: 40px;
+    font-weight: 700;
+    color: red;
+    margin-left: 15px;
+    margin-bottom: 10px;
+}
+
+.mfooter .div-form h5 {
+    font-size: 17px;
+    margin: 0px -6px;
+    color: #fff;
+    font-weight: 500;
+    position: relative;
+    left: 18px;
+    margin-bottom: 34px;
+}
+
+.mfooter .div-form form {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 40px;
+    position: relative;
+    left: 15px;
+}
+
+.mfooter .div-form form input {
+    width: 13em;
+    height: 3em;
+    border: none;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 20px;
+}
+
+.mfooter .div-form form input::placeholder {
+    font-weight: 500;
+    text-align: center;
+    color: #052c4d;
+}
+
+.mfooter .div-form form button {
+    margin-top: -16px;
+    height: 3em;
+    width: 5em;
+    font-weight: 500;
+    border: none;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.mfooter .footer-img {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    width: 320px;
+}
+
+.mfooter .footer-img img {
+    padding: 0px 5px;
+    height: 50px;
+    width: 50%;
+}
+
+.mfooter .dropy {
+    margin-top: 350px;
+    text-align: center;
+}
+
+.mfooter .dropss {
+    margin-bottom: 500px;
+    margin-top: 20px;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.mfooter .footy {
+    margin-top: -28em;
+    margin-bottom: 30em;
+}
+
+.mfooter .copyright {
+    color: #fff;
+}
+
+.mfooter .social-icons ul {
+    float: right;
+    list-style: none;
+}
+
+.mfooter .social-icons ul li {
+    float: left;
+    padding: 0px 10px;
+}
+
+.mfooter .social-icons ul li a {
+    color: #f6e049;
+}
+
+.mfooter .social-icons ul li a:hover {
+    color: #a1922c;
+}
